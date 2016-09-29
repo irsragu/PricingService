@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<users>
+		<user name="user-1" password="password1">
+			<symbol>JPY=</symbol>
+			<symbol>CAD=</symbol>
+		</user>
+		<user name="user-2" password="password2">
+			<symbol>JPY=</symbol>
+ 			<symbol>EUR=</symbol>
+			<symbol>GBP=</symbol>
+			<symbol>CAD=</symbol>
+			<symbol>CLc2=</symbol>
+			<symbol>GBPJPY=</symbol>
+			<symbol>EURGBP=R</symbol>
+			<symbol>CAT</symbol>
+			<symbol>CELG.O</symbol>
+		</user>
+		<user name="user-3" password="password3">
+			<symbol>EUR=</symbol>
+			<symbol>JPY=</symbol>
+		</user>
+		<user name="user-4" password="password4">
+			<symbol>INR=</symbol>
+			<symbol>EUR=</symbol>
+		</user>
+	</users>
+	<masterSymbolList>
+		<symbol>JPY=</symbol>
+		<symbol>EUR=</symbol>
+		<symbol>GBP=</symbol>
+		<symbol>CAD=</symbol>
+		<symbol>CLc2=</symbol>
+		<symbol>GBPJPY=</symbol>
+		<symbol>EURGBP=R</symbol>
+		<symbol>CAT</symbol>
+		<symbol>CELG.O</symbol>
+	</masterSymbolList>
+	<pricebar>5</pricebar>
+	<base_dir>C:\\workspace\\PricingService\\</base_dir>
+	<ftp_server>hosted.datascope.reuters.com</ftp_server>
+	<ftp_port>21</ftp_port>
+	<ftp_user>r9009814</ftp_user>
+	<ftp_password>logos949</ftp_password>
+	<ftp_local_file_dir>HistoricalData\\</ftp_local_file_dir>
+	<pricebar_dir>HistoricalData\\</pricebar_dir>
+	<realtime_dir>RealtimeData\\</realtime_dir>
+	<ftp_template_file_dir>Template\\</ftp_template_file_dir>]
+	<ftp_schedule_defnition>Daily_Schedule_Definition.xml</ftp_schedule_defnition>
+	<ftp_report_template>ReportTemplate.xml</ftp_report_template>
+</config>

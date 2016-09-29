@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<ReportRequest xmlns="http://www.reuters.com/Datascope/ReportRequest.xsd">
+  <Schedule>
+    <ScheduleAction>Replace</ScheduleAction>
+    <Name>Daily_Historical_Schedule</Name>
+    <TimeseriesPricingSchedule>
+      <InputList>
+        <Name>EUR_</Name>
+        <Type>Instrument</Type>
+      </InputList>
+      <ReportTemplate>
+        <Name>Historical_Report</Name>
+        <Type>TimeSeries</Type>
+      </ReportTemplate>
+      <OutputFileName>Daily_Historical</OutputFileName>
+      <ScheduleTimezone>Eastern Standard Time</ScheduleTimezone>
+      <ScheduleImmediate />
+    </TimeseriesPricingSchedule>
+  </Schedule>
+</ReportRequest>

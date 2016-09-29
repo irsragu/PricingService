@@ -1,0 +1,31 @@
+Extraction Services Version 10.6.35223 (b3a7892673f2), Built Aug  8 2016 05:37:48
+Processing started at 08/15/2016 18:43:27.
+User ID: 9009814
+Extraction ID: 227571203
+Schedule: Daily_Historical_Schedule (ID = 0x055bce8d3d1e717a)
+Timeseries Date Range: 01/01/1996 to 08/15/2016
+Input List (79 items): Logos Ric List (ID = 05546123c5952703) Created: 07/09/2016 19:30:20 Last Modified: 08/10/2016 22:50:53
+Schedule Time: 08/15/2016 18:43:15
+Report Template (7 fields): Historical_Report (ID = 0x0558994437ce717a) Created: 07/22/2016 22:06:55 Last Modified: 08/15/2016 18:43:13
+WARNING: No Pricing for instrument (RIC,GBPUSD=R,N/E), because Identifier/TAG is Not Found.
+WARNING: No Pricing for instrument (RIC,EURUSD=R,N/E), because Identifier/TAG is Not Found.
+WARNING: No Pricing for instrument (RIC,MU.O Q,), segment  due to instrument not found
+WARNING: No Pricing for instrument (RIC,ZNc1,), segment  due to instrument not found
+Received data from NDA server 8.95
+Processing completed successfully at 08/15/2016 19:13:58, taking 1831.209 Secs.
+Extraction finished at 08/15/2016 23:13:58 UTC, with servers: x07T01, QSHA02 (0.1 secs), QSNW06 (15.5 secs)
+Usage Summary for User 9009814, Client 104746, Template Type Timeseries Pricing, NONE
+Base Usage
+        Instrument                          Instrument                   Terms          Price
+  Count Type                                Subtype                      Source         Source
+------- ----------------------------------- ---------------------------- -------------- ----------------------------------------
+      9 Derivatives                                                      N/A            N/A
+     54 Equities                                                         N/A            N/A
+     14 Money Market                                                     N/A            N/A
+-------
+     77 Total instruments charged.
+      2 Instruments with no reported data.
+=======
+     79 Instruments in the input list.
+No TRPS complex usage to report -- 79 Instruments in the input list had no reported data.
+Writing RIC maintenance report.
